@@ -1,12 +1,12 @@
 #legal variable names
-myvar = 'Edo'
-my_var = 'Edo'
-_my_var = 'Edo'
-myVar = 'Edo'
-MYVAR = 'Edo'
-myvar2 = 'Edo'
+myvar = 'kucing'
+my_var = 'kucing'
+_my_var = 'kucing'
+myVar = 'kucing'
+MYVAR = 'kucing'
+myvar2 = 'kucing'
 
 #illegal variable names
-# 2myvar = 'Edo'
-# my-var = 'Edo'
-# my var = 'Edo'
+# 2myvar = 'kucing'
+# my-var = 'kucing'
+# my var = 'kucing'

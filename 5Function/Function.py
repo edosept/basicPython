@@ -1,7 +1,7 @@
 # Function Without Input(parameter) & Output(return)
 def salam():
     print('Hallo apa kabar?')
-    print('Semoga hari anda menyenangkan!')
+    print('Semoga harimu menyenangkan!')
 
 
 salam()
@@ -12,7 +12,7 @@ print("=" * 50)
 
 def salamBalik(nama, usia):
     print('Hallo perkenalkan nama saya {}, dan usia saya {}'.format(nama, usia))
-    print('Senang bertemu dengan anda!')
+    print('Senang bertemu denganmu!')
 
 
 salamBalik('Andi', 25)
@@ -36,7 +36,7 @@ def salamBalik2(nama='Unknown', usia=0):
     elif(nama != 'Unknown' and usia > 0):
         print('Hallo perkenalkan nama saya {}, dan usia saya {}'.format(nama, usia))
 
-    print('Senang bertemu dengan anda!')
+    print('Senang bertemu denganmu!')
 
 
 salamBalik2(usia=25)
@@ -61,7 +61,7 @@ print(tambah(10, 2))
 
 def coba(nama):
     print('Selamat datang {} di Toko Kue Bahagia!'.format(nama))
-    print('Kuenya dijamin bikin bahagia loh!')
+    print('Kuenya dijamin bikin bahagia deh! hehe')
 
     while(True):
         mau = input('Mau coba kue ini? : ')
@@ -71,7 +71,7 @@ def coba(nama):
         elif(mau == 'ggamau!'):
             break
         print('Anda yakin?')
-    print('Semoga anda selalu bahagia dan sampai jumpa lagi :)')
+    print('Semoga harimu menyenangkan dan sampai jumpa lagi :)')
 
 
 kue = coba('edo')
